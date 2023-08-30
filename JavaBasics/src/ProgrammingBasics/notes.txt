@@ -1,2 +1,7 @@
 
-1. BinarySearch
+1. BubbleSort:
+         1. we need to compare current element with next element and swap if it is larger
+         2. outer-loop iterates over all the indexes.
+         3. inner-loop iterates till arr.length-1.
+         4. we can optimise this by iterating till arr.length-1-i. becasue,
+            the arr.length-i element is already in its correct position.
