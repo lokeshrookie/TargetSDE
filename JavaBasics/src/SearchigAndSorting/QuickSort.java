@@ -1,8 +1,9 @@
 package SearchigAndSorting;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
-
+/*
+  Bro Code Quick sort.
+ */
 import static SearchigAndSorting.BubbleSort.swap;
 
 public class QuickSort {
