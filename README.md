@@ -4,12 +4,12 @@
 - [x] Searching
     - [x] Linear Search
     - [x] Binary Search
-- [ ] Sorting
+- [x] Sorting
   - [x] Bubble Sort
-  - [ ] Selection Sort
-  - [ ] Insertion Sort
-  - [ ] Merge Sort
-  - [ ] QuickSort
+  - [x] Selection Sort
+  - [x] Insertion Sort
+  - [x] Merge Sort
+  - [x] QuickSort
 ## Collection Framework
 - [ ] ..
 
