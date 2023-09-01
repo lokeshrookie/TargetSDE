@@ -17,3 +17,16 @@
 - [ ] Stack 
 - [ ] Queue
 - [ ] LinkedList
+
+## Arrays
+- [x] Reverse Array Inplace
+- [ ] Array Min Max
+- [ ] Find kth max and kth min of an array.
+- [ ] Sort an array of 0s, 1s and 2s (without any sorting algorithm).
+- [ ] Move all negative elements to one side of array.
+- [ ] Find the union and intersection of two sorted arrays.
+- [ ] Write a program to cyclically rotate an array by one.
+- [ ] Find the largest sum contagious sub-array.
+- [ ] Minimise the maximum difference between heights.
+- [ ] Minimum jumps to reach an end of array.
+- 
