@@ -7,6 +7,13 @@ import java.util.Arrays;
  *      Compare neighbouring elements and swap if present is not smaller than next one.
  *      For evey inner iteration, the largest element will come to the end of the array
  *
+ *
+ 1. we need to compare current element with next element and swap if it is larger
+ 2. outer-loop iterates over all the indexes.
+ 3. inner-loop iterates till arr.length-1.
+ 4. we can optimise this by iterating till arr.length-1-i. becasue,
+ the arr.length-i element is already in its correct position. (i elements on the left are already sorted).
+ *
  */
 public class BubbleSort {
     public static void main(String[] args) {
@@ -42,4 +49,5 @@ public class BubbleSort {
         arr[first] = arr[second];
         arr[second] = temp;
     }
+
 }

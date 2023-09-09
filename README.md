@@ -19,7 +19,7 @@
 - [ ] LinkedList
 
 ## Arrays
-- [x] Reverse Array Inplace
+- [x] Reverse Array In-place
 - [ ] Array Min Max
 - [ ] Find kth max and kth min of an array.
 - [ ] Sort an array of 0s, 1s and 2s (without any sorting algorithm).

@@ -14,9 +14,8 @@ import java.util.Arrays;
 public class InsertionSort {
     public static void main(String[] args) {
         int[] arr = {5,4,3,2,1};
-        System.out.println(Arrays.toString(insertionSort(arr)));
+        System.out.println(Arrays.toString(kunalInsertion(arr)));
     }
-
     private static int[] insertionSort(int[] arr) {
         for (int i = 0; i < arr.length-1; i++) {
             for (int j = i+1; j < arr.length; j++) {
@@ -27,11 +26,32 @@ public class InsertionSort {
         }
         return  arr;
     }
-
     public static void  swap(int[] arr, int first , int second){
         int temp = arr[first];
         arr[first] = arr[second];
         arr[second] = temp;
+    }
+
+
+    /**
+     *
+     * @param arr
+     * @return
+     *
+     * Kunal insertion: i at 0 index, j at 1 index.
+     *  for every iteration of i, elements upto i+1 will be sorted.
+     *  EX: after i = 0, elements at 0,1 index will be sorted.
+     *
+     */
+    public static int[] kunalInsertion(int[] arr){
+        for (int i = 0; i < arr.length-1; i++) {
+            for(int j = i+1; j>0; j--){
+                if(arr[j] < arr[j-1]){
+                    swap(arr, j, j-1);
+                }
+            }
+        }
+        return arr;
     }
 }
 
