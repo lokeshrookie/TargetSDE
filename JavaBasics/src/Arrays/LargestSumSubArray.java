@@ -42,12 +42,11 @@ public class LargestSumSubArray {
     public static int maxSubArraySum(int[] arr){
         int current_max = arr[0];
         int max = arr[0];
-        for (int i = 0; i < arr.length; i++) {
-            current_max = current_max + arr[i];
-            if(current_max < 0){
+        for (int j : arr) {
+            current_max = current_max + j;
+            if (current_max < 0) {
                 current_max = 0;
-            }
-            else if(current_max > max){
+            } else if (current_max > max) {
                 max = current_max;
             }
         }
