@@ -14,9 +14,31 @@ public class LargestSumSubArray {
     public static void main(String[] args) {
         int[] arr = { 1,2 -3, 4, -3,-6, -8, 0, 5, 6, -9, -7, -9};
         System.out.println(maxSubArraySum(arr));
-
     }
 
+    //bruteforce
+    public int maxSubArray(int[] nums) {
+        int maxSum = Integer.MIN_VALUE; // Initialize maxSum to negative infinity
+
+        // Iterate through all possible subarrays
+        for (int i = 0; i < nums.length; i++) {
+            int currentSum = 0;
+            for (int j = i; j < nums.length; j++) {
+                // Compute the sum of the current subarray
+                currentSum += nums[j];
+
+                // Update maxSum if the current subarray sum is greater
+                if (currentSum > maxSum) {
+                    maxSum = currentSum;
+                }
+            }
+        }
+
+        return maxSum; // maxSum contains the maximum subarray sum
+    }
+
+
+    // optimised.
     public static int maxSubArraySum(int[] arr){
         int current_max = arr[0];
         int max = arr[0];
@@ -31,5 +53,4 @@ public class LargestSumSubArray {
         }
         return max;
     }
-
 }
