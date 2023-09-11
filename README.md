@@ -26,7 +26,7 @@
 - [ ] Move all negative elements to one side of array.
 - [ ] Find the union and intersection of two sorted arrays.
 - [ ] Write a program to cyclically rotate an array by one.
-- [ ] Find the largest sum contagious sub-array.
+- [x] Find the largest sum contagious sub-array.
 - [ ] Minimise the maximum difference between heights.
 - [ ] Minimum jumps to reach an end of array.
 - 
